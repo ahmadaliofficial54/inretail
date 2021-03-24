@@ -1,0 +1,42 @@
+{
+  "name": "org.inretail.app",
+  "displayName": "In Reatil",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "cordova-android": "^9.0.0",
+    "cordova-plugin-android-imei": "^1.0.0",
+    "cordova-plugin-device": "^2.0.3",
+    "cordova-plugin-imei": "^1.1.0",
+    "cordova-plugin-splashscreen": "^6.0.0",
+    "cordova-plugin-whitelist": "^1.3.4"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-device": {},
+      "cordova-plugin-splashscreen": {},
+      "cordova-plugin-android-imei": {},
+      "cordova-plugin-imei": {}
+    },
+    "platforms": [
+      "android"
+    ]
+  },
+  "dependencies": {
+    "@ionic-native/device": "^5.31.1",
+    "device-uuid": "^1.0.4",
+    "mobile-device-detect": "^0.4.3",
+    "rm": "^0.1.8",
+    "vue-pdf": "^4.2.0"
+  }
+}

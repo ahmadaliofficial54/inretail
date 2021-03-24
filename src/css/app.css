@@ -1,0 +1,20 @@
+/* app global css */
+
+.bg-sc-brand-blue{
+    background: #0173bc;
+}
+.bg-sc-brand-green{
+    background: #028748;
+}
+.bg-sc-brand-color{
+    background: #2F4457;
+}
+.sc-brand-color{
+    background-color: #2F4457;
+}
+.in-white-color{
+    background-color: white;
+}
+.in-black-color{
+    background-color: black;
+}
